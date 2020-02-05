@@ -2,3 +2,34 @@ body {
   margin: 0 auto;
   font-family: "Red Hat Display", sans-serif;
 }
+
+.hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.programmer {
+  margin-left: 910px;
+}
+
+h1,
+h3 {
+  position: relative;
+
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 96px;
+  margin-left: 80px;
+  margin-bottom: 40px;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 48px;
+  margin-left: 80px;
+  font-weight: 400;
+}
