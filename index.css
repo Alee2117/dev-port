@@ -14,6 +14,26 @@ body {
   margin-left: 910px;
 }
 
+.code-intro {
+  display: inline;
+  position: absolute;
+  top: 600px;
+  left: 130px;
+}
+
+.arrow {
+  display: inline;
+  position: absolute;
+  bottom: 259px;
+  left: 173px;
+}
+.r-arrow {
+  display: inline;
+  position: absolute;
+  top: 782px;
+  left: 790px;
+}
+
 h1,
 h3 {
   position: relative;
@@ -32,4 +52,20 @@ h3 {
   font-size: 48px;
   margin-left: 80px;
   font-weight: 400;
+}
+
+ul {
+  margin-top: 50px;
+}
+
+li {
+  text-align: center;
+  list-style-type: none;
+  display: inline;
+  margin-left: 65px;
+}
+
+.line-break {
+  margin: 100px auto 10px auto;
+  display: block;
 }
