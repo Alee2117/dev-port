@@ -1,31 +1,4 @@
-* {
-  margin: 0;
-}
-
-html {
-  height: 100%;
-  color: white;
-}
-
-header {
-  background-image: url("PortHeader.jpg");
-  background-position: 100%, 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #b030b0;
-  background-blend-mode: multiply;
-  text-align: left;
-  height: 40vh;
-}
-
 body {
-  background-repeat: no-repeat;
-  background-image: linear-gradient(
-    to right bottom,
-    #202040,
-    #202048,
-    #202050,
-    #202058,
-    #202060
-  );
+  margin: 0 auto;
+  font-family: "Red Hat Display", sans-serif;
 }
