@@ -69,3 +69,7 @@ li {
   margin: 100px auto 10px auto;
   display: block;
 }
+
+.info {
+  font-size: 36px;
+}
