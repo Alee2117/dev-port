@@ -24,7 +24,7 @@ body {
 .arrow {
   display: inline;
   position: absolute;
-  bottom: 259px;
+  bottom: 260px;
   left: 173px;
 }
 .r-arrow {
@@ -70,6 +70,46 @@ li {
   display: block;
 }
 
-.info {
-  font-size: 36px;
+.line-two {
+  margin: 0 auto;
+  display: block;
+}
+
+.ellipse {
+  position: relative;
+  margin-left: 10px;
+}
+
+.text {
+  position: absolute;
+  left: 40%;
+  top: 0;
+  text-align: center;
+  font-size: 30px;
+  width: 911px;
+  height: 867px;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+}
+
+.history {
+  position: absolute;
+  top: 40px;
+  left: 7.5%;
+}
+
+.about {
+  margin-top: 70px;
+}
+
+.cloud-right {
+  position: absolute;
+  right: 0;
+}
+
+.projects {
+  margin-top: 200px;
 }
