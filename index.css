@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   font-family: "Red Hat Display", sans-serif;
+  background-color: rgb(243, 243, 243);
 }
 
 .hero {
@@ -112,4 +113,29 @@ li {
 
 .projects {
   margin-top: 200px;
+}
+
+.project-tag {
+  position: absolute;
+  bottom: 280px;
+  left: 30px;
+}
+
+.contact-section {
+  position: relative;
+}
+
+.contact-header {
+  margin-left: 230px;
+}
+
+.contact-img {
+  margin-left: 10px;
+}
+
+.contact {
+  position: absolute;
+  right: 30px;
+  top: 0;
+  line-height: 80px;
 }
