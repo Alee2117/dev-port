@@ -13,6 +13,7 @@ body {
 
 .programmer {
   margin-left: 910px;
+  z-index: 5;
 }
 
 .code-intro {
@@ -25,7 +26,7 @@ body {
 .arrow {
   display: inline;
   position: absolute;
-  bottom: 260px;
+  bottom: 305px;
   left: 173px;
 }
 .r-arrow {
@@ -113,12 +114,39 @@ li {
 
 .projects {
   margin-top: 200px;
+  position: relative;
 }
 
 .project-tag {
   position: absolute;
   bottom: 280px;
   left: 30px;
+}
+
+.project-one {
+  background: black;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin-left: 800px;
+  top: 400px;
+}
+.project-two {
+  background: black;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin-left: 800px;
+  bottom: 0;
+}
+
+.project-three {
+  background: black;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  bottom: 0;
+  right: 490px;
 }
 
 .contact-section {
