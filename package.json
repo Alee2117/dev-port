@@ -1,0 +1,23 @@
+{
+  "name": "dev-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "rellax": "^1.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alee2117/dev-port.git"
+  },
+  "author": "Austin Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alee2117/dev-port/issues"
+  },
+  "homepage": "https://github.com/Alee2117/dev-port#readme"
+}
