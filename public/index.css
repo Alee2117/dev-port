@@ -58,6 +58,13 @@ h3 {
 
 ul {
   margin-top: 50px;
+  display: flex;
+}
+
+.languages {
+}
+
+.language-icon {
 }
 
 li {
@@ -167,4 +174,52 @@ li {
   right: 30px;
   top: 0;
   line-height: 80px;
+}
+
+@media (max-width: 420px) {
+  h1 {
+    font-size: 33px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  h3 {
+    font-size: 25px;
+    margin-top: 80px;
+    margin-left: 8px;
+  }
+  .programmer {
+    width: 210px;
+    margin-left: 190px;
+    position: relative;
+    top: 0;
+  }
+
+  .code-intro {
+    position: absolute;
+    top: 130px;
+    left: 2px;
+    font-size: 17px;
+  }
+  .arrow {
+    position: absolute;
+    top: 217px;
+    left: 1px;
+    width: 8px;
+  }
+
+  ul {
+    padding-left: 10px;
+  }
+
+  li {
+    margin-left: 1px;
+  }
+
+  .language-icon {
+    width: 50px;
+  }
+
+  .line-break {
+    margin: 0px;
+  }
 }
