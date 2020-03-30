@@ -184,7 +184,7 @@ li {
   }
   h3 {
     font-size: 25px;
-    margin-top: 80px;
+    margin-top: 60px;
     margin-left: 8px;
   }
   .programmer {
@@ -202,13 +202,13 @@ li {
   }
   .arrow {
     position: absolute;
-    top: 217px;
+    top: 197px;
     left: 1px;
     width: 8px;
   }
 
   ul {
-    padding-left: 10px;
+    padding-left: 0;
   }
 
   li {
@@ -221,5 +221,80 @@ li {
 
   .line-break {
     margin: 0px;
+  }
+
+  .about {
+    margin-top: 15px;
+  }
+
+  .about-img {
+    width: 380px;
+  }
+
+  .box {
+    position: relative;
+  }
+  .info {
+    margin-top: 10px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .text {
+    font-size: 14px;
+    position: absolute;
+    top: 140px;
+    left: 20px;
+  }
+
+  .history {
+    font-size: 25px;
+    margin-top: 0;
+    position: absolute;
+    top: 35px;
+    left: 120px;
+  }
+
+  .project-tag {
+    position: absolute;
+    bottom: 180px;
+  }
+
+  .abstract {
+    width: 400px;
+  }
+
+  .box {
+    margin-top: 10px;
+  }
+
+  .cloud-right {
+    width: 200px;
+    height: 800px;
+    position: absolute;
+    bottom: 800px;
+  }
+
+  .contact-header {
+    margin-left: 10px;
+  }
+
+  .contact-img {
+    width: 380px;
+    margin: 0;
+    position: absolute;
+    top: 380px;
+  }
+
+  .contact {
+    margin: 0;
+    line-height: 0;
+    left: 0;
+  }
+
+  .contact h3 {
+    font-size: 20px;
+    margin-left: 8px;
+    margin-top: 90px;
   }
 }
