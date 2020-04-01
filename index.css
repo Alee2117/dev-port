@@ -130,31 +130,44 @@ li {
   left: 30px;
 }
 
-.project-one {
-  background: black;
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  margin-left: 800px;
-  top: 400px;
-  color: white;
-}
-.project-two {
-  background: black;
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  margin-left: 800px;
-  bottom: 0;
+.project-link {
+  display: block;
+  width: 450px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: space;
 }
 
-.project-three {
-  background: black;
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  bottom: 0;
-  right: 490px;
+.project-holder {
+  position: relative;
+  left: 700px;
+  bottom: 700px;
+  height: 200px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex li {
+  margin-bottom: 50px;
+}
+
+.weather {
+  background-image: url(./assets/weather.svg);
+}
+.movieflix {
+  background-image: url(./assets/movieflix.svg);
+}
+
+.nutrition {
+  background-image: url(./assets/nutrition.svg);
+}
+
+.bootstrap {
+  background-image: url(./assets/bootstrap.svg);
 }
 
 .contact-section {
