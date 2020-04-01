@@ -26,7 +26,7 @@ body {
 .arrow {
   display: inline;
   position: absolute;
-  bottom: 305px;
+  bottom: 289px;
   left: 173px;
 }
 .r-arrow {
@@ -133,17 +133,19 @@ li {
 
 .project-link {
   display: block;
+  color: rgba(0, 0, 0, 0);
   width: 450px;
   height: 250px;
   background-position: center;
   background-size: cover;
   background-repeat: space;
   opacity: 1;
-  transition: 2s ease all;
+  transition: 1s ease all;
 }
 
 .project-link:hover {
   opacity: 0.5;
+  color: rgb(255, 255, 255);
 }
 
 .project-holder {
@@ -188,6 +190,13 @@ li {
 
 .contact-img {
   margin-left: 10px;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
 }
 
 .contact {
