@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "aos": "^2.3.4",
     "rellax": "^1.12.1"
   },
   "devDependencies": {},

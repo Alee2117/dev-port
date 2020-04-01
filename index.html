@@ -9,7 +9,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="index.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Austin Lee Portfolio</title>
   </head>
   <body>
     <section>
@@ -31,56 +32,78 @@
     </section>
     <section class="languages">
       <ul>
-        <li><img class="language-icon" src="assets/html-5.svg" /></li>
-        <li><img class="language-icon" src="assets/icons8-css3 1.svg" /></li>
-        <li>
-          <img class="language-icon" src="assets/icons8-javascript 1.svg" />
-        </li>
-        <li><img class="language-icon" src="assets/icons8-sass 1.svg" /></li>
-        <li><img class="language-icon" src="assets/icons8-react 1.svg" /></li>
-        <li>
-          <img class="language-icon" src="assets/icons8-bootstrap 1.svg" />
-        </li>
-        <li><img class="language-icon" src="assets/github-logo 1.svg" /></li>
+        <div data-aos="fade-up" data-aos-duration="3000">
+          <li><img class="language-icon" src="assets/html-5.svg" /></li>
+        </div>
+        <div data-aos="fade-down" data-aos-duration="3000">
+          <li><img class="language-icon" src="assets/icons8-css3 1.svg" /></li>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="3000">
+          <li>
+            <img class="language-icon" src="assets/icons8-javascript 1.svg" />
+          </li>
+        </div>
+        <div data-aos="fade-down" data-aos-duration="3000">
+          <li><img class="language-icon" src="assets/icons8-sass 1.svg" /></li>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="3000">
+          <li><img class="language-icon" src="assets/icons8-react 1.svg" /></li>
+        </div>
+        <div data-aos="fade-down" data-aos-duration="3000">
+          <li>
+            <img class="language-icon" src="assets/icons8-bootstrap 1.svg" />
+          </li>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="3000">
+          <li><img class="language-icon" src="assets/github-logo 1.svg" /></li>
+        </div>
       </ul>
     </section>
-    <img src="assets/Line 6.svg" class="line-break" />
-    <section class="about">
-      <div class="box">
-        <img class="about-img" src="assets/Group 7.svg" />
-        <h3 class="history">A Little History</h3>
-        <div class="text">
-          <p class="info">
-            I started my coding journey a little over a year ago.
-            <br />
-            <br />
+    <div data-aos="fade-in" data-aos-duration="3000">
+      <img src="assets/Line 6.svg" class="line-break" />
+    </div>
+    <div data-aos="fade-left" data-aos-duration="3000">
+      <section class="about">
+        <div class="box">
+          <img class="about-img" src="assets/Group 7.svg" />
+          <h3 class="history">A Little History</h3>
+          <div class="text">
+            <p class="info">
+              I started my coding journey a little over a year ago.
+              <br />
+              <br />
 
-            One night I was researching jobs and noticed many listings looking
-            for software engineers/programmers. I had never really looked into
-            it before so I decided to do some research, and I regret not doing
-            so much earlier in my life.
-            <br />
-            <br />
-            Since then I have gotten certificates through Udemy and Coursera, as
-            well as done my own research heavily to learn the programming
-            languages listed above, as well as others.
-            <br />
-            <br />
-            I’m loyal, dedicated, and always working on some kind of project to
-            better my skills. If you have any questions, please don’t hesitate
-            to contact me.
-          </p>
+              One night I was researching jobs and noticed many listings looking
+              for software engineers/programmers. I had never really looked into
+              it before so I decided to do some research, and I regret not doing
+              so much earlier in my life.
+              <br />
+              <br />
+              Since then I have gotten certificates through Udemy and Coursera,
+              as well as done my own research heavily to learn the programming
+              languages listed above, as well as others.
+              <br />
+              <br />
+              I’m loyal, dedicated, and always working on some kind of project
+              to better my skills. If you have any questions, please don’t
+              hesitate to contact me.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <section class="projects">
       <div class="box">
-        <img class="abstract" src="assets/Group 9.svg" />
-        <div class="project-tag">
-          <h1>Projects</h1>
+        <div data-aos="fade-left" data-aos-duration="3000">
+          <img class="abstract" src="assets/Group 9.svg" />
+          <div class="project-tag">
+            <h1>Projects</h1>
+          </div>
         </div>
       </div>
-      <img class="cloud-right" src="assets/Group 8.svg" />
+      <div class="cloud-right" data-aos="fade-right" data-aos-duration="3000">
+        <img src="assets/Group 8.svg" />
+      </div>
     </section>
     <div class="project-holder">
       <ul class="flex">
@@ -128,5 +151,10 @@
         <h3>LinkedIn: <a href="#">Coming Soon!</a></h3>
       </div>
     </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
