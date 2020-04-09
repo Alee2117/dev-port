@@ -122,6 +122,23 @@ li {
   position: relative;
 }
 
+.title {
+  position: absolute;
+  left: 480px;
+  bottom: 210px;
+}
+
+.description {
+  position: absolute;
+  left: 460px;
+  top: 30px;
+  width: 200px;
+}
+
+.project-container {
+  position: relative;
+}
+
 .project-tag {
   position: absolute;
   bottom: 280px;
@@ -204,7 +221,9 @@ a:active {
 }
 
 @media (max-width: 770px) {
+  html,
   body {
+    width: 100%;
     overflow-x: hidden;
   }
 
