@@ -220,13 +220,7 @@ a:active {
   line-height: 80px;
 }
 
-@media (max-width: 770px) {
-  html,
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
+@media (max-width: 815px) {
   h1 {
     font-size: 33px;
     margin-left: 20px;
@@ -369,7 +363,7 @@ a:active {
   }
 
   .project-holder {
-    left: 70px;
+    left: 55px;
     bottom: 0;
     margin-bottom: 300px;
     z-index: 10;
@@ -378,6 +372,20 @@ a:active {
   .project-link {
     width: 200px;
     height: 150px;
+  }
+
+  .title {
+    font-size: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 150px;
+  }
+
+  .description {
+    font-size: 9px;
+    width: 100px;
+    left: 210px;
+    top: 0;
   }
 
   .line-break {
@@ -390,6 +398,10 @@ a:active {
   }
 
   .contact-section {
-    margin-top: 110px;
+    margin-top: 70px;
+  }
+
+  .contact {
+    margin-top: 10px;
   }
 }
